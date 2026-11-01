@@ -1,0 +1,81 @@
+/* TransformacjaAI.store — Modern Executive / 2026 */
+:root{--tai-navy:#17324d;--tai-deep:#102b40;--tai-ivory:#f7f5f0;--tai-sage:#8dad9f;--tai-gold:#b79a65;--tai-border:#dbe4e5;--tai-teal:#256c80;--tai-muted:#5d7180}
+html{scroll-behavior:smooth;scroll-padding-top:94px}
+.tai-market-intro,.tai-packages,.tai-solar,.tai-calculator,.tai-finish{max-width:1320px;margin-inline:auto;box-sizing:border-box;color:var(--tai-navy)}
+.tai-market-intro,.tai-packages,.tai-calculator{padding-block:clamp(46px,5vw,79px)}
+.tai-kicker{display:inline-block;color:#557b82;font-size:10px;font-weight:850;letter-spacing:2px;line-height:1.5;text-transform:uppercase;margin-bottom:12px}
+.tai-section-heading{max-width:830px;margin-bottom:29px}
+.tai-section-heading h2,.tai-solar h2,.tai-finish h2{margin:0;color:var(--tai-navy);font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,3vw,43px);line-height:1.2;letter-spacing:-.85px;font-weight:690}
+.tai-section-heading em,.tai-solar h2 em,.tai-finish h2 em{font-style:normal;color:var(--tai-teal)}
+.tai-section-heading p,.tai-solar-top>div>p,.tai-finish p{font-size:15px;line-height:1.8;color:var(--tai-muted);max-width:780px;margin:15px 0 0}
+.tai-stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.tai-stats-grid article{background:white;border:1px solid var(--tai-border);border-radius:13px;padding:26px 22px 20px;box-shadow:0 7px 27px #14385008}
+.tai-num{font-family:Georgia,serif;display:block;color:var(--tai-navy);font-size:clamp(31px,3.1vw,46px);line-height:1.05;margin-bottom:10px;letter-spacing:-.8px}
+.tai-stats-grid strong{font-size:13px;display:block;line-height:1.5;color:#17324d}
+.tai-stats-grid p{font-size:12px;line-height:1.6;color:var(--tai-muted);margin:8px 0 0}
+.tai-stats-grid a{font-size:11px;color:var(--tai-teal);text-decoration:underline;text-underline-offset:3px}
+.tai-market-ribbon{margin-top:17px;border:1px solid #d5e2e1;background:#edf4f1;border-radius:11px;display:grid;grid-template-columns:auto 1fr auto;gap:16px;padding:20px 24px;align-items:center}
+.tai-market-ribbon p{margin:0;color:#375363;font-size:13px;line-height:1.65}
+.tai-ribbon-mark{display:grid;place-items:center;width:42px;height:42px;background:#fff;border:1px solid #d8e5e4;color:#266c7e;border-radius:12px;font-size:23px}
+.tai-market-ribbon a,.tai-solar a,.tai-finish a{font-size:12px;font-weight:800;white-space:nowrap;color:var(--tai-teal);text-decoration:none}
+.tai-market-ribbon a:hover,.tai-solar a:hover,.tai-finish a:hover{text-decoration:underline}
+.tai-footnote{font-size:11px;line-height:1.65;color:#6a7c88;margin:13px 0 0}
+.tai-packages{border-top:1px solid #e2e9e7}
+.tai-offer-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.tai-offer-card{display:flex;flex-direction:column;min-width:0;background:#fff;border:1px solid var(--tai-border);border-radius:14px;padding:25px 20px;box-shadow:0 10px 26px #16324a09}
+.tai-offer-card.tai-offer-featured{border:2px solid #87abae;background:linear-gradient(180deg,#f2f8f6,#fff 61%);padding:24px 19px}
+.tai-offer-tag{color:#648392;font-size:10px;font-weight:800;letter-spacing:1.4px}
+.tai-offer-card h3{font-family:Georgia,serif;font-size:25px;font-weight:650;letter-spacing:-.5px;margin:12px 0;color:var(--tai-navy)}
+.tai-offer-price{font-size:23px;font-weight:780;color:#256b7d;line-height:1.25;margin-bottom:12px}
+.tai-offer-price small{font-size:10px;font-weight:600;color:#84939c;display:block;margin-top:4px}
+.tai-offer-card p{font-size:13px;line-height:1.65;color:#5d7180;margin:0 0 12px}
+.tai-offer-card ul{padding:0;margin:2px 0 20px;list-style:none;display:grid;gap:10px;flex:1}
+.tai-offer-card li{font-size:12px;color:#3c586b;padding-left:20px;position:relative;line-height:1.5}
+.tai-offer-card li:before{content:'✓';position:absolute;left:0;color:#2b8a79;font-weight:900}
+.tai-offer-card a{display:block;border-radius:8px;border:1px solid #cfdde0;background:#f4f8f7;padding:12px 14px;text-decoration:none;text-align:center;font-weight:800;color:#235c6e;font-size:12px}
+.tai-offer-card.tai-offer-featured a{color:white;background:#255f74;border-color:#255f74}
+.tai-offer-card a:hover{filter:brightness(.96)}
+.tai-offer-note{font-size:11px;color:#637887;line-height:1.7;padding-top:17px;max-width:970px}
+.tai-solar{padding:clamp(30px,4vw,58px);border:1px solid #d7e2e2;border-radius:17px;background:linear-gradient(110deg,#f1f5f3,#e9f1ef);box-shadow:0 8px 27px #16324a09;margin-top:32px;margin-bottom:32px}
+.tai-solar-top{display:grid;grid-template-columns:.93fr 1fr;gap:clamp(22px,4vw,64px);align-items:center}
+.tai-solar h2{font-size:clamp(25px,2.7vw,37px)}
+.tai-solar p{margin-bottom:20px}
+.tai-solar-comparison{border-radius:12px;background:#fff;border:1px solid #d6e2e1;overflow:hidden;box-shadow:0 8px 22px #17324d0c}
+.tai-solar-comparison>div{display:grid;grid-template-columns:1fr 1fr;gap:15px;border-bottom:1px solid #e6eeee;padding:13px 16px;color:#496474;font-size:12px}
+.tai-solar-comparison>div:last-child{border-bottom:0}
+.tai-solar-comparison .tai-table-heading{background:#17324d;color:white;font-size:13px;font-weight:800;padding:16px}
+.tai-solar-comparison>div span+span{font-weight:750;color:#286e7c}
+.tai-solar-comparison .tai-table-heading span+span{color:white}
+.tai-calculator{border-top:1px solid #e2e9e7}
+.tai-calc-layout{display:grid;grid-template-columns:1fr .9fr;gap:20px;align-items:stretch}
+.tai-calc-inputs,.tai-calc-output{background:#fff;border:1px solid var(--tai-border);border-radius:14px;padding:clamp(20px,3vw,35px);box-shadow:0 10px 30px #16324a09}
+.tai-calc-inputs label{display:block;color:#3c5465;font-size:13px;font-weight:720;margin:0 0 9px;line-height:1.55}
+.tai-calc-inputs label span,.tai-calc-inputs output{float:right;color:#286c7d;font-weight:850}
+.tai-calc-inputs input[type=number]{appearance:textfield;width:100%;box-sizing:border-box;border:1px solid #cbdadc;background:#f8faf9;padding:14px 15px;border-radius:8px;color:#17324d;font:750 17px system-ui,sans-serif;margin:0 0 21px;min-height:48px}
+.tai-calc-inputs input:focus-visible{outline:3px solid #75b3bc;outline-offset:2px}
+.tai-calc-inputs input[type=range]{accent-color:#296c80;width:100%;margin:0 0 26px;height:22px;cursor:pointer}
+.tai-calc-reset{border:0;background:transparent;font-size:12px;color:#286e7c;font-weight:780;padding:5px 0;cursor:pointer}
+.tai-calc-output{background:#17324d;border-color:#17324d;color:white;display:flex;flex-direction:column;justify-content:center}
+.tai-calc-output .tai-kicker{color:#9abcc0}
+.tai-calc-result{display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid #ffffff22;padding:16px 0;align-items:baseline}
+.tai-calc-result span{font-size:13px;color:#cbdde3;line-height:1.5;max-width:60%}
+.tai-calc-result strong{font-size:23px;color:#fff;font-weight:760;white-space:nowrap;letter-spacing:-.5px}
+.tai-calc-result.total{background:#ffffff12;margin-inline:-13px;padding-inline:13px;border-radius:8px}
+.tai-calc-result.total strong{color:#c2e4d5}
+.tai-calc-disclaimer{color:#c0d0d7;font-size:10.5px;line-height:1.7;margin:19px 0}
+.tai-calc-output a{font-size:12px;font-weight:800;color:#c2e4d5;text-decoration:underline;text-underline-offset:3px}
+.tai-finish{padding:37px 43px;background:#eaf1ef;border:1px solid #d7e3df;border-radius:16px;margin-top:20px;margin-bottom:55px;display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center}
+.tai-finish h2{font-size:clamp(26px,2.5vw,36px)}
+.tai-finish-actions{display:flex;flex-direction:column;gap:12px}
+.tai-finish-actions a{padding:13px 17px;background:white;border:1px solid #cedcdb;border-radius:8px;text-align:center}
+/* Consistent Transformacja AI identity across all pages */
+.brand-mark{background:#17324d!important;color:#f6f5f0!important;font-family:Georgia,serif;font-size:33px!important;border:1px solid #b79a654a!important}
+.brand-copy{font-size:clamp(16px,1.7vw,23px)!important;letter-spacing:-.85px!important}
+.brand-copy>span,.footer-brand span,.offer-header .brand span{color:#236f84!important}
+.site-header,.offer-header{border-bottom:1px solid #dce5e3!important}
+.top-links a[href="rynek-ai.html"]{color:#2a6877!important}
+.tai-market-intro a:focus-visible,.tai-offer-card a:focus-visible,.tai-finish a:focus-visible{outline:3px solid #64a9b6;outline-offset:3px}
+@media(max-width:1100px){.tai-stats-grid,.tai-offer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tai-market-ribbon{grid-template-columns:auto 1fr}.tai-market-ribbon a{grid-column:2}.tai-solar-top{grid-template-columns:1fr}.tai-finish{grid-template-columns:1fr}.tai-finish-actions{flex-direction:row;flex-wrap:wrap}}
+@media(max-width:700px){.tai-market-intro,.tai-packages,.tai-calculator{padding-block:43px}.tai-stats-grid{gap:10px}.tai-stats-grid article{padding:19px 15px}.tai-num{font-size:32px}.tai-offer-grid{grid-template-columns:1fr}.tai-market-ribbon{grid-template-columns:1fr;padding:19px}.tai-market-ribbon a{grid-column:1;white-space:normal}.tai-solar{padding:22px;margin-inline:14px}.tai-solar-comparison>div{font-size:11px;padding:11px}.tai-calc-layout{grid-template-columns:1fr}.tai-calc-inputs,.tai-calc-output{padding:21px}.tai-calc-result strong{font-size:19px}.tai-finish{margin-inline:14px;padding:23px}.tai-finish-actions{flex-direction:column}.site-header .brand-copy{font-size:16px!important;letter-spacing:-1px!important}.site-header .brand-copy small{font-size:6px!important}}
+@media(max-width:390px){.tai-stats-grid{grid-template-columns:1fr}.tai-stats-grid article{padding:17px}.site-header .brand-copy{font-size:14px!important}.brand-mark{font-size:26px!important}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

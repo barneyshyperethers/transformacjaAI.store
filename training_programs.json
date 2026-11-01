@@ -1,0 +1,280 @@
+{
+  "budownictwo": {
+    "title": "Nowoczesny Budowlaniec",
+    "short": "Budownictwo",
+    "color": "#ffac6b",
+    "hours": 7,
+    "time": "1 dzień · 7 godzin",
+    "desc": "Oferty, praca ekip, koszty, dostawy i raporty. Uczestnik przechodzi przez cały proces obsługi zlecenia budowlanego.",
+    "target": "Kierownicy budów, brygadziści, kosztorysanci, logistycy i właściciele firm.",
+    "exam": "Projekt „Budowa osiedla”: stwórz ofertę, rozdziel zadania, obsłuż niezgodność dostawy i wygeneruj raport inwestora.",
+    "metric": [
+      "Czas przygotowania oferty",
+      "Liczba błędów w dostawach",
+      "Opóźnienia aktualizacji zadań"
+    ],
+    "agenda": [
+      [
+        45,
+        "AI w firmie budowlanej",
+        "Mapa procesów, poufność danych, zakres automatyzacji."
+      ],
+      [
+        75,
+        "Asystent budowy",
+        "Zadania ekip, postępy, zdjęcia i raport z budowy."
+      ],
+      [
+        60,
+        "Oferty i kosztorysy",
+        "Zapytanie klienta, szablon wyceny, ręczna kontrola stawek."
+      ],
+      [
+        60,
+        "Czas i organizacja pracy",
+        "Harmonogram ekip, dostępności, roboczogodziny."
+      ],
+      [
+        60,
+        "Dostawy i magazyn",
+        "Porównywanie zamówień, dostaw i dokumentów."
+      ],
+      [
+        75,
+        "Koszty i raporty",
+        "Marża, opóźnienia, raport inwestycji i alerty."
+      ],
+      [
+        45,
+        "Zadanie końcowe",
+        "Samodzielna obsługa opóźnionej dostawy i zmiany planu."
+      ]
+    ]
+  },
+  "hotel": {
+    "title": "Nowoczesny Hotel z AI",
+    "short": "Hotele",
+    "color": "#bd95ff",
+    "hours": 7,
+    "time": "1 dzień · 7 godzin",
+    "desc": "Obsługa gości, AI Concierge, rezerwacje, housekeeping, grafiki i zarządzanie jakością.",
+    "target": "Recepcja, housekeeping, kierownicy zmian, dział rezerwacji, dyrekcja hotelu.",
+    "exam": "Scenariusz „50 gości przyjeżdża wcześniej”: zsynchronizuj recepcję, sprzątanie i komunikację z gośćmi.",
+    "metric": [
+      "Czas odpowiedzi na zapytanie",
+      "Czas przekazania statusu pokoju",
+      "Liczba korekt rezerwacji"
+    ],
+    "agenda": [
+      [
+        45,
+        "AI i odpowiedzialność w hotelu",
+        "Ochrona danych gości i zasady przekazywania decyzji człowiekowi."
+      ],
+      [
+        90,
+        "Concierge i Unified Inbox",
+        "Wielojęzyczne odpowiedzi, FAQ, eskalacje i komunikacja."
+      ],
+      [
+        60,
+        "Rezerwacje",
+        "Dostępność, zmiany terminów, anulacje i potwierdzenia."
+      ],
+      [
+        75,
+        "Housekeeping",
+        "Statusy pokoi, przydział sprzątania i awarie."
+      ],
+      [
+        45,
+        "Grafiki i zapasy",
+        "Dostępność pracowników i monitorowanie środków."
+      ],
+      [
+        60,
+        "Kokpit menedżera",
+        "Obłożenie, skargi, zadania i raporty."
+      ],
+      [
+        45,
+        "Zadanie końcowe",
+        "Jednoczesna obsługa przyjazdu dużej grupy."
+      ]
+    ]
+  },
+  "szpital": {
+    "title": "Nowoczesny Szpital z AI",
+    "short": "Szpitale",
+    "color": "#53dfea",
+    "hours": 14,
+    "time": "2 dni · 14 godzin",
+    "desc": "Grafiki dyżurów personelu medycznego, preferencje i szczególne okoliczności, zastępstwa, zasoby i kontrola koordynatora.",
+    "target": "Pielęgniarki oddziałowe, koordynatorzy, lekarze kierujący zespołami, kadry i dyrekcja.",
+    "exam": "Scenariusz „Oddział na 30 dni”: zaplanuj pracę na danych fikcyjnych, zasymuluj 3 nieobecności, wykryj konflikt i przedstaw grafik do zatwierdzenia.",
+    "metric": [
+      "Liczba wykrytych konfliktów obsady",
+      "Czas przygotowania propozycji grafiku",
+      "Odsetek zmian wymagających korekty"
+    ],
+    "agenda": [
+      [
+        45,
+        "D1 · Bezpieczne AI w szpitalu",
+        "Ochrona danych, role i uprawnienia, zakres automatyzacji."
+      ],
+      [
+        60,
+        "D1 · Struktura personelu",
+        "Oddziały, stanowiska, kwalifikacje i kompetencje."
+      ],
+      [
+        75,
+        "D1 · Reguły i preferencje",
+        "Urlopy, odpoczynki, dostępność, minimalna obsada, szczególne okoliczności."
+      ],
+      [
+        90,
+        "D1 · Generator dyżurów",
+        "Grafik tygodniowy i miesięczny, wykrywanie konfliktów."
+      ],
+      [
+        75,
+        "D1 · Zastępstwa",
+        "Nieobecności, zamiany, krytyczne braki obsady."
+      ],
+      [
+        45,
+        "D1 · Zatwierdzanie",
+        "Ręczne korekty, kolejka akceptacji i historia zmian."
+      ],
+      [
+        30,
+        "D1 · Kontrola",
+        "Przegląd wyniku i błędów krytycznych."
+      ],
+      [
+        45,
+        "D2 · Uprawnienia i poufność",
+        "Powtórka reguł dostępu i odpowiedzialności."
+      ],
+      [
+        60,
+        "D2 · Powiadomienia zespołu",
+        "Akceptacje zmian, komunikacja, zasady eskalacji."
+      ],
+      [
+        60,
+        "D2 · Obieg dokumentacji",
+        "Organizacyjny obieg dokumentów i uprawnienia."
+      ],
+      [
+        60,
+        "D2 · Zasoby oddziałów",
+        "Sale, sprzęt i zapotrzebowanie."
+      ],
+      [
+        60,
+        "D2 · Raporty dla dyrekcji",
+        "Obsada, nadgodziny, obciążenie i braki."
+      ],
+      [
+        90,
+        "D2 · Symulacja kryzysowa",
+        "Nagłe nieobecności oraz wzrost wymagań obsady."
+      ],
+      [
+        45,
+        "D2 · Egzamin praktyczny",
+        "Brak naruszeń twardych reguł i prawidłowa akceptacja."
+      ]
+    ]
+  },
+  "gmina": {
+    "title": "Nowoczesna Gmina z AI",
+    "short": "Gminy i urzędy",
+    "color": "#68e7af",
+    "hours": 14,
+    "time": "2 dni · 14 godzin",
+    "desc": "Obieg pism, dekretacja, KPA, komunikacja z mieszkańcami, pilnowanie terminów i raporty dla kierownictwa.",
+    "target": "Referenci, inspektorzy, kancelaria, kierownicy wydziałów, sekretarze i urzędnicy obsługujący mieszkańców.",
+    "exam": "Scenariusz „100 spraw w urzędzie”: klasyfikacja, dekretacja, rozpoznanie braków, projekt odpowiedzi i zatwierdzanie.",
+    "metric": [
+      "Czas rejestracji i przekazania sprawy",
+      "Liczba terminów wymagających interwencji",
+      "Liczba poprawek w projektach pism"
+    ],
+    "agenda": [
+      [
+        60,
+        "D1 · AI w administracji",
+        "RODO, tajemnice prawnie chronione, odpowiedzialność urzędnika."
+      ],
+      [
+        75,
+        "D1 · Rejestracja korespondencji",
+        "OCR, metadane i proponowana dekretacja."
+      ],
+      [
+        75,
+        "D1 · Asystent KPA",
+        "Wyszukiwanie źródeł, projekty pism, kontrola podstaw prawnych."
+      ],
+      [
+        60,
+        "D1 · EZD i e-Doręczenia",
+        "Obieg spraw, terminy, kanały doręczenia."
+      ],
+      [
+        60,
+        "D1 · Projekty dokumentów",
+        "Pisma, notatki, protokoły i ich wersjonowanie."
+      ],
+      [
+        60,
+        "D1 · Kontrola przez człowieka",
+        "Wykrywanie niezgodności i eskalacja."
+      ],
+      [
+        30,
+        "D1 · Mini-egzamin",
+        "Klasyfikacja i dekretacja spraw."
+      ],
+      [
+        45,
+        "D2 · Bezpieczeństwo",
+        "Uprawnienia, logi, audyt działań AI."
+      ],
+      [
+        75,
+        "D2 · Zgłoszenia mieszkańców",
+        "Klasyfikacja, przekazanie i statusy."
+      ],
+      [
+        60,
+        "D2 · Kontakt z mieszkańcami",
+        "Przygotowanie odpowiedzi, sprawy i powiadomienia."
+      ],
+      [
+        60,
+        "D2 · Inwestycje i zadania",
+        "Zadania wydziałów, terminy, raportowanie."
+      ],
+      [
+        60,
+        "D2 · Budżet i zarządzanie",
+        "Kokpit kierownictwa i zestawienia."
+      ],
+      [
+        75,
+        "D2 · Symulacja współpracy",
+        "Jedna sprawa między trzema referatami."
+      ],
+      [
+        45,
+        "D2 · Sprawdzian",
+        "Poprawność klasyfikacji, terminy, decyzja urzędnika."
+      ]
+    ]
+  }
+}

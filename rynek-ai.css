@@ -1,0 +1,44 @@
+/* Standalone editorial market page within TransformacjaAI.store */
+.tai-market-page{background:#f7f5f0!important;color:#17324d;min-width:0}
+.tai-market-page .site-header{position:sticky;top:0;z-index:50;background:#fbfaf7eb!important;backdrop-filter:blur(14px)}
+.tai-rm-hero{display:grid;grid-template-columns:1.06fr .78fr;gap:clamp(30px,5vw,84px);padding-block:78px 70px;align-items:center}
+.tai-rm-hero h1{font:660 clamp(41px,4.7vw,66px)/1.1 Georgia,'Times New Roman',serif;letter-spacing:-1.8px;max-width:760px;margin:0;color:#17324d}
+.tai-rm-hero h1 em,.tai-rm-section h2 em{font-style:normal;color:#256b7d}
+.tai-rm-hero p{font-size:16px;line-height:1.85;color:#506676;max-width:690px;margin:22px 0}
+.tai-rm-hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:30px}
+.tai-main-button,.tai-secondary-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:9px;font-weight:760;text-decoration:none!important;font-size:13px}
+.tai-main-button{color:white!important;background:#24677c;border:1px solid #24677c}.tai-secondary-button{color:#24677c!important;background:white;border:1px solid #d6e0e0}
+.tai-rm-source{font-size:11px;color:#6a7d89;line-height:1.7;margin-top:24px;max-width:680px}
+.tai-rm-hero-visual{display:flex;flex-direction:column;gap:10px;padding:30px;background:linear-gradient(130deg,#e7efec,#fafcf8);border:1px solid #d4e1e0;border-radius:18px;box-shadow:0 17px 48px #17324d14;position:relative}
+.tai-rm-microtag{font-size:10px;font-weight:800;color:#547782;letter-spacing:1.5px;margin-bottom:7px}
+.tai-rm-step{display:grid;grid-template-columns:45px 1fr;column-gap:12px;align-items:center;background:white;padding:15px;border:1px solid #dce7e4;border-radius:10px}
+.tai-rm-step span{grid-row:1 / 3;width:42px;height:42px;display:grid;place-items:center;border-radius:8px;background:#e5efec;color:#25697d;font-weight:900;font-size:14px}
+.tai-rm-step strong{font-size:15px;color:#1e3d51}.tai-rm-step small{font-size:11px;margin-top:4px;color:#68808b}
+.tai-rm-section{padding-block:clamp(45px,6vw,85px);border-top:1px solid #e0e8e6}
+.tai-rm-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.tai-rm-stat{background:white;border:1px solid #d9e5e4;border-radius:13px;padding:22px 20px 20px;display:flex;flex-direction:column}
+.tai-rm-statnum{font:650 42px Georgia,serif;color:#25697d;letter-spacing:-1.6px}
+.tai-rm-stat h3{font-size:14px;margin:9px 0 8px;color:#17324d}.tai-rm-stat p{font-size:12px;line-height:1.7;color:#5e7481;margin:0 0 14px;flex:1}.tai-rm-stat a{font-size:11px;color:#286e7f;font-weight:700}
+.tai-rm-euro{display:grid;grid-template-columns:1fr .9fr;gap:35px;background:#edf3f1;border:1px solid #d7e2e0;border-radius:15px;padding:33px;margin-top:22px;align-items:center}
+.tai-rm-euro h3{font:650 29px Georgia,serif;letter-spacing:-.5px;margin:0;color:#17324d}.tai-rm-euro p{font-size:13px;color:#536d7b;line-height:1.8}
+.tai-rm-euro a,.tai-rm-parp a{color:#266b7d;font-size:12px;font-weight:800}
+.tai-rm-bar-chart{background:white;border:1px solid #d9e5e1;border-radius:11px;padding:25px}
+.tai-rm-bar-label{display:flex;justify-content:space-between;margin:0 0 8px;font-size:13px;color:#365262}.tai-rm-bar-label strong{color:#17324d}
+.tai-rm-bar{background:#e4eceb;height:15px;border-radius:999px;overflow:hidden;margin-bottom:20px}
+.tai-rm-bar i{display:block;height:100%;border-radius:999px;background:#2b7587}.tai-rm-bar:nth-of-type(4) i{background:#8dad9f}
+.tai-rm-bar-chart small{font-size:10px;color:#667e8a}
+.tai-rm-parp{display:flex;gap:23px;align-items:center;background:white;border:1px solid #d9e5e4;border-radius:12px;padding:23px;margin-top:15px}
+.tai-rm-parp-number{font:650 48px Georgia,serif;color:#236d7d;white-space:nowrap}.tai-rm-parp strong{font-size:14px}.tai-rm-parp p{font-size:12px;line-height:1.7;color:#627987;margin:7px 0}
+.tai-rm-trend-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+.tai-rm-trend-grid article{background:white;border-radius:12px;border:1px solid #dbe5e4;padding:24px 21px}
+.tai-rm-trend-grid article>span{color:#7c9d9c;font-weight:850;font-size:11px}.tai-rm-trend-grid h3{font:650 21px Georgia,serif;color:#17324d;margin:15px 0 10px}.tai-rm-trend-grid p{font-size:12px;line-height:1.75;color:#5d7180;margin:0}
+.tai-rm-pv{display:grid;grid-template-columns:1fr .86fr;gap:45px;align-items:center}
+.tai-rm-pv h2{font:650 clamp(28px,3vw,41px)/1.17 Georgia,serif;margin:0;color:#17324d}
+.tai-rm-pv p{font-size:14px;line-height:1.85;color:#5e7281}
+.tai-rm-journey{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.tai-rm-journey article{border:1px solid #d9e5e3;background:#fff;border-radius:13px;padding:22px 20px}.tai-rm-journey b{display:grid;place-items:center;background:#e9f2ef;color:#276b7c;width:35px;height:35px;border-radius:8px}.tai-rm-journey h3{font-size:15px;margin:15px 0 8px}.tai-rm-journey p{font-size:12px;color:#587080;line-height:1.65}
+.tai-rm-modules{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.tai-rm-modules a{display:grid;grid-template-columns:40px 1fr;grid-template-rows:auto auto;gap:0 13px;align-items:center;text-decoration:none;border:1px solid #dbe5e4;background:#fff;border-radius:11px;padding:17px 19px}.tai-rm-modules span{grid-row:1 / 3;background:#eaf2ef;border-radius:10px;width:38px;height:38px;display:grid;place-items:center;color:#2c7988;font-size:23px}.tai-rm-modules strong{color:#17324d;font-size:13px}.tai-rm-modules small{font-size:11px;color:#607786;margin-top:5px}.tai-rm-modules a:hover{border-color:#8eafb1;box-shadow:0 8px 17px #17324d0d}
+.tai-rm-end{background:#e7f1ee;border-radius:16px;border:1px solid #d6e4df;margin-bottom:35px!important;text-align:center;padding:60px 25px}.tai-rm-end>div{max-width:780px;margin:auto}.tai-rm-end h2{font:650 clamp(30px,3vw,41px) Georgia,serif;margin:0;color:#17324d}.tai-rm-end p{color:#586e7d;font-size:14px;line-height:1.8;margin:17px 0 27px}.tai-rm-end .tai-main-button{display:inline-flex}
+.tai-rm-sources{padding-top:0;padding-bottom:60px;border-top:0}.tai-rm-sources details{background:#fff;border:1px solid #dce6e5;border-radius:11px;padding:20px}.tai-rm-sources summary{font-size:13px;font-weight:760;color:#335669;cursor:pointer}.tai-rm-sources-body{padding-top:12px}.tai-rm-sources p{font-size:12px;line-height:1.8;color:#617787}.tai-rm-sources a{color:#286e7d}
+.tai-rm-footer{background:#19354b;padding:35px 0;color:#fff}.tai-rm-footer>.shell{display:flex;justify-content:space-between;align-items:center;gap:22px}.tai-rm-footer strong{font-size:22px}.tai-rm-footer strong span{color:#90c7ca}.tai-rm-footer p{font-size:12px;color:#c7dbe0}.tai-rm-footer nav{display:flex;flex-wrap:wrap;gap:16px}.tai-rm-footer nav a{color:#dae8eb;font-size:12px;text-decoration:none}
+@media(max-width:1020px){.tai-rm-grid,.tai-rm-trend-grid,.tai-rm-journey{grid-template-columns:repeat(2,minmax(0,1fr))}.tai-rm-hero{grid-template-columns:1fr}.tai-rm-hero-visual{max-width:670px}.tai-rm-euro,.tai-rm-pv{grid-template-columns:1fr}.tai-rm-modules{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.tai-rm-hero{padding-block:45px}.tai-rm-hero h1{font-size:43px}.tai-rm-grid,.tai-rm-trend-grid,.tai-rm-journey,.tai-rm-modules{grid-template-columns:1fr}.tai-rm-stat{padding:19px}.tai-rm-euro{padding:20px}.tai-rm-parp{flex-direction:column;align-items:flex-start}.tai-rm-footer>.shell{display:block}.tai-rm-footer nav{margin-top:20px}.tai-market-page .site-header .brand-copy{font-size:15px!important}}
