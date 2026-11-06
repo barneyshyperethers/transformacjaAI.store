@@ -42,3 +42,12 @@ W przypadku rozbudowanego koszyka klient może musieć skorzystać z `.eml` lub 
 
 Zweryfikowano syntaktycznie JavaScript, odnośniki do plików i działanie podstawowych interakcji w przeglądarce z zasobami osadzonymi lokalnie: renderowanie **80 modułów**, wczytywanie zestawu hotelowego (7 wybranych modułów), synchronizacja formularza, menu mobilne, kalkulator oraz brak poziomego przewijania w układzie 390 px. Pełnej dostawy e-mail i wiadomości WhatsApp nie można potwierdzić bez ich rzeczywistego wysłania przez użytkownika.
 
+
+
+## Podstrony branżowe — edycja 1 listopada 2026
+
+Nowa strona `branze.html` grupuje 11 dziedzin. Dodano pełne opisy i edytowalne zestawy modułów: `budownictwo.html`, `hotele.html`, `szpitale.html`, `gminy.html`, `administracja.html`, `kadry.html`, `produkcja.html`. Starsze strony `imim.html`, `logistyka.html`, `spedycja.html`, `moje-dziedzictwo.html` pozostały dostępne.
+
+Kliknięcie „Zbuduj system i przejdź do koszyka” przenosi wybrane identyfikatory modułów do `index.html?pakiet=…&moduly=…#builder`; dla branż ogólnych używa wyłącznie `moduly=`. Skrypt `app.js` odczytuje je, synchronizuje izometryczną mapę, koszyk i formularz. Formularz przygotowuje wiadomość przez własny program pocztowy użytkownika lub WhatsApp. Dane kontaktowe: barnabapawelczak@gmail.com, +48 502 468 073.
+
+Wszystkie podstrony są statyczne i działają na hostingu plików HTML. Wyceny i nakłady są orientacyjne. Bez PHP/MySQL.

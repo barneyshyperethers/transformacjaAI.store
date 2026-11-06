@@ -307,11 +307,11 @@
   // Wybór z podstron branżowych: jedno kliknięcie ładuje wskazany zestaw do mapy, koszyka i formularza.
   const inbound=new URLSearchParams(location.search);
   const inboundType=inbound.get('pakiet');
-  if(inboundType && PRESETS[inboundType]){
+  if((inboundType && PRESETS[inboundType]) || inbound.has('moduly')){
     const proposed=(inbound.get('moduly')||'').split(',').filter(id=>byId.has(id));
     const unique=[...new Set(proposed)].slice(0,slots.length);
-    selected=unique.length?unique:[...PRESETS[inboundType].ids];
-    projectTemplate=inboundType;
+    selected=unique.length?unique:(PRESETS[inboundType]?.ids.slice()||[]);
+    projectTemplate=PRESETS[inboundType]?inboundType:'';
     inspectId=selected.find(id=>id!=='legacyworkshop')||selected[0]||null;
     persist();
   }
